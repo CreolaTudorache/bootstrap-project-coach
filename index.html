@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>MyCoachProject</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">Coach</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#consultatii" class="nav-link">Consultatii</a>
+            </li>
+            <li class="nav-item">
+              <a href="#stil" class="nav-link">Stilul meu</a>
+            </li>
+            <li class="nav-item">
+              <a href="#questions" class="nav-link">Intrebari</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section
+      class="bg-secondary text-dark p-5 p-lg-0 pt-lg-5 pb-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Mental coaching</h1>
+            <p class="lead my-4">
+              Sunt licentiata in Psihologie si Stiintele Educatiei, atestata
+              Coach NLP, Master NLP, Trainer NLP si atestata ca si Wingwave
+              Coach. Lucrez cu oameni care au probleme in cariera, in viata de
+              parinte, in viata personala si traume, frici si convingeri
+              limitative. Te pot ghida spre usa care iti poate deschide o noua
+              lume daca iei decizia ca vrei asta. Este numai decizia ta!
+            </p>
+            <button
+              class="btn-success btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#programeaza"
+            >
+              Programeaza o sedinta
+            </button>
+          </div>
+          <img
+            src="foto/eu.jpg"
+            alt=""
+            class="img-fluid w-50 d-none rounded-3 d-sm-block"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="bg-light text-dark p-5">
+      <div class="div container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="h3 mb-3 mb-md-0">Consultație online de 60 de minute</h3>
+          <a
+            class="btn btn-outline-success btn-lg"
+            href="#consultatie"
+            role="button"
+            data-bs-toggle="modal"
+            data-bs-target="#consultatie"
+            ><i class="bi bi-chevron-right"></i>Hai sa vorbim</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="p-5" id="consultatii">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-secondary text-dark">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title mb-3">Consultatie online</h3>
+                <p class="card-text">
+                  Coaching-ul online îmi permite să lucrez cu clienți în mai
+                  multe fusuri orare si din mai multe orase diferite. De
+                  asemenea, înseamnă că pot păstra spațiu pentru tine oriunde te
+                  simți cel mai în largul tău - la birou, pe canapea sau pe
+                  drum.
+                </p>
+                <a
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#programeaza"
+                  class="btn btn-success"
+                  >Programeaza o intalnire</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-dark">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-square"></i>
+                </div>
+                <h3 class="card-title mb-3">Consultatie hibrid</h3>
+                <p class="card-text">
+                  Coaching-ul hibrid îmi permite să lucrez cu clienți într-un
+                  mod constant, chiar daca ei nu sunt tot timpul available
+                  pentru intalniri fata in fata. Putem stabili sa ne vedem o
+                  singura data pe luna si apoi celelalte intalniri se pot
+                  stabili online.
+                </p>
+                <a
+                  href="#programeaza"
+                  class="btn btn-light"
+                  data-bs-toggle="modal"
+                  data-bs-target="#programeaza"
+                  >Programeaza o intalnire</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-dark">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title mb-3">Fata in fata</h3>
+                <p class="card-text">
+                  Coaching-ul in persoana poate fi stabilit atunci cand iti
+                  doresti sa ai un context diferit in care sa lucrezi cu tine.
+                  Eu iti pot oferi acest context intr-un cadru relaxant. De
+                  asemenea numai asa se pot desfasura sedintele de wing-wave.
+                </p>
+                <a
+                  href="#programeaza"
+                  class="btn btn-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#programeaza"
+                  >Programeaza o intalnire</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="stil" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-betweeen">
+          <div class="col-md">
+            <img
+              class="img-fluid"
+              src="foto/tim-mossholder-UYQP_yjpp5Q-unsplash.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-md p-5">
+            <h2>Stilul de coaching</h2>
+            <p class="lead">
+              Folosesc strategiile și instrumentele care vor fi cele mai
+              eficiente în situația ta particulară. Toate acestea se bazează pe
+              cercetări de top în coaching, psihologie, managementul timpului,
+              dezvoltarea leadershipului și un pic de bun simț. O atmosferă de
+              deschidere, căldură și totală nejudecată este ceea ce vă puteți
+              aștepta de la mine. Veți afla că umorul și ușurința sunt esențiale
+              în munca mea de mental-coach. Pe langa metodele de coaching bine
+              cunoscute, folosesc tehnici de NLP si metoda wingwave, coaching
+              pentru eliminarea stresului.
+            </p>
+            <a
+              class="btn btn-outline-success btn-lg mt-3"
+              href="#consultatie"
+              role="button"
+              data-bs-toggle="modal"
+              data-bs-target="#consultatie"
+            >
+              <i class="bi bi-chevron-right"></i> Hai sa vorbim</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="learn" class="p-5 bg-secondary">
+      <div class="container">
+        <div class="row align-items-center justify-content-betweeen">
+          <div class="col-md p-5">
+            <h2>Ce lucrez în mod regulat cu clienții:</h2>
+
+            <ul>
+              <li>Creșterea eficienței și eficacității</li>
+              <li>Asertivitatea și gestionarea emoțiilor la locul de muncă</li>
+              <li>Cum sa faci față anxietății și nesiguranței</li>
+              <li>
+                Crearea viziunii tale pentru un viitor bogat și plin de sens
+              </li>
+              <li>Înțelegeți cum arată definiția voastră a succesului</li>
+              <li>Stabilirea unor termene limită și respectarea lor</li>
+              <li>Aprecierea cine ești față de cine doresc alții să fii</li>
+              <li>
+                Trăiește cu atenție, spre deosebire de a trăi pe pilot automat
+              </li>
+              <li>Valorile de bază</li>
+              <li>Ce calități în viață sunt esențiale pentru tine și de ce?</li>
+              <li>
+                Crearea încrederii în sine și găsirea dovezilor că ești
+                suficient de bun
+              </li>
+              <li>Găsirea liniștii atunci când relațiile se schimbă</li>
+              <li>
+                Găsirea conexiunii și apartenența la schimbarile aduse de viata
+                de expat
+              </li>
+              <li>Găsirea liniștii și pacii în vremuri incerte</li>
+              <li>
+                Confruntarea cu gândurile și sentimentele dureroase într-un mod
+                mai plin de resurse
+              </li>
+              <li>
+                Să fii atent la gândurile care te atrag să faci alegeri inutile
+              </li>
+              <li>
+                Gasirea acelei voci interioare care iti aduc înțelepciune,
+                claritate și compasiune
+              </li>
+            </ul>
+
+            <a
+              class="btn btn-success btn-lg mt-3"
+              href="#consultatie"
+              role="button"
+              data-bs-toggle="modal"
+              data-bs-target="#consultatie"
+            >
+              <i class="bi bi-chevron-right"></i> Hai sa vorbim</a
+            >
+          </div>
+          <div class="col-md">
+            <img
+              class="img-fluid"
+              src="foto/max-van-den-oetelaar-buymYm3RQ3U-unsplash.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="questions" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Intrebari frecvente</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <!--item1-->
+          <div class="accordion-item p-4">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed btn-outline-success border border-success text-reset"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+              >
+                Ce este coachingul?
+              </button>
+            </h2>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Majoritatea oamenilor de succes înțeleg beneficiile investiției
+                în ei înșiși. Și nu vă înșelați, coaching-ul este o investiție
+                pe care o veți aprecia de multe ori. Coaching-ul nu este doar
+                pentru sportivi, vedete pop și directori de corporații sau chiar
+                pentru cei care se confruntă cu o presupusă criză de vârstă
+                mijlocie. Este pentru oricine suficient de sensibil pentru a
+                realiza că are niște puncte oarbe care ar putea beneficia de un
+                set de ochi imparțiali cu experiență. În calitate de coach,
+                datoria mea este să te provoc să explici ce vrei pentru viitorul
+                tău și cel mai important de ce. Apoi te ajut să-ți dai seama cum
+                să adopti cea mai utilă mentalitate pentru a-ți atinge
+                obiectivele, împreună cu strategiile și rutinele potrivite
+                pentru a ajunge acolo cât mai repede posibil. Rezultatele
+                coaching-ului pot schimba viața. Într-adevăr, viitorul tău sine
+                de 85 de ani îți poate mulțumi într-o zi pentru asta.
+              </div>
+            </div>
+          </div>
+          <!--item2-->
+          <div class="accordion-item p-4">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed btn-outline-success border border-success text-reset"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two"
+              >
+                Ce este NLP?
+              </button>
+            </h2>
+            <div
+              id="question-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                N vine de la neurologie: Cum funcționează mintea și cum gândim
+                pentru a deveni exponențiali în mediul în care trăim. L vine de
+                la lingvistică: cum utilizăm limbajul pentru a crea încredere și
+                a gestiona stările noastre și a celor din jurul nostru. In timp
+                ce P vine de la programare: Cum ordonăm acțiunile și gândurile
+                noastre pentru a genera rezultate excepționale. Poti afla mai
+                multe aici
+                <a href="https://www.nlp.ro/index.html" target="_blank"
+                  >nlp.ro</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--item3-->
+          <div class="accordion-item p-4">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed btn-outline-success border border-success text-reset"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three"
+              >
+                Ce este Wingwave?
+              </button>
+            </h2>
+            <div
+              id="question-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Metoda wingwave este o formă de coaching emoțional care reduce
+                stresul legat de performanță și crește rapid creativitatea și
+                capacitatea de a face față conflictelor a clientului în doar
+                câteva sesiuni. Aceste efecte sunt obținute cu un proces foarte
+                simplu: realizarea de mișcări rapide ale ochilor REM pe care
+                noi, oamenii le experimentăm în mod normal doar în timpul
+                somnului atunci când visăm. Coach-ul ghidează privirea
+                clientului prin mișcarea rapidă a mânii in fața ochilor
+                clientului stânga - dreapta. Se mai foloseste stimularea
+                auditivă sau tactilă cu orientare stânga-dreapta. Testul
+                myostatic este un instrument care oferă feedback muscular, având
+                la bază cercetări științifice. Cu ajutorul lui se stabileste în
+                prealabil problema exactă și după rezolvare se testeaza
+                eficacitatea intervenției. Poti afla mai multe aici
+                <a
+                  href="https://wingwave.com/ro/despre-wingwave/ce-este-wingwave/"
+                  target="_blank"
+                  >wingwave.com</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact section-->
+    <section class="p-5" id="contact">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Locatie:</span> Bucuresti
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Telefon:</span> +40 725 539 881
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Email:</span> tudorachecreola@gmail.com
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Social Media:</span>
+                <a
+                  href="https://www.facebook.com/creolatudoracheyourcoach"
+                  class=""
+                >
+                  <i class="bi bi-facebook"></i>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold"><i class="bi bi-whatsapp"></i>:</span> +40
+                725 539 881
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="p-5 bg-secondary text-white text-center position-relative">
+      <p class="lead">Copyright &copy; 2022 CT WebDev</p>
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle text-reset h1"></i>
+      </a>
+    </footer>
+
+    <!-- Modal Programeaza -->
+    <div
+      class="modal fade"
+      id="programeaza"
+      tabindex="-1"
+      aria-labelledby="programeazaLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="programeazaLabel">
+              Programeaza o sedinta
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">
+              Lasa-mi detaliile mai jos, cu numele și adresa de e-mail si te voi
+              contacta în scurt timp pentru a configura o sedinta de coaching.
+            </p>
+            <form action="">
+              <div class="mb-3">
+                <label for="first-name" class="col-form-label">Prenume</label>
+                <input type="text" class="form-control" id="first-name" />
+              </div>
+              <div class="mb-3">
+                <label for="name" class="col-form-label">Nume</label>
+                <input type="text" class="form-control" id="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">email</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="location" class="col-form-label">Locatie</label>
+                <input type="text" class="form-control" id="location" />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="col-form-label">Mesajul tau</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">Trimite</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Consultatie -->
+    <div
+      class="modal fade"
+      id="consultatie"
+      tabindex="-1"
+      aria-labelledby="consultatieLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="consultatieLabel">
+              Hai sa vorbim
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">
+              Iti ofer o consultație gratuită de 60 de minute! Vrei să afli cum
+              se simte o sesiune de coaching cu mine? Ofer o ședință gratuită.
+              Dacă îmi lăsați numele și adresa de e-mail, vă voi contacta în
+              scurt timp pentru a configura o consultatie online sau telefonica,
+              de 60 de minute, in care putem discuta.
+            </p>
+            <form action="">
+              <div class="mb-3">
+                <label for="first-name" class="col-form-label">Prenume</label>
+                <input type="text" class="form-control" id="first-name" />
+              </div>
+              <div class="mb-3">
+                <label for="name" class="col-form-label">Nume</label>
+                <input type="text" class="form-control" id="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">email</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="col-form-label">Mesajul tau</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">Trimite</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
